@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    <title>About Us</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><a href="landingpage.html">EarthPix</a></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Kaylee.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>Kaylee Low</h3>
+                    <p>Hello! I'm a second year Psychology student. It feels good to travel around and find gems all over the world. EarthPix is created for you to see the world through our eyes without holding the World Passport. Hope to be able to explore
+                        new places soon again!</p>
+                </div>
+            </div>
+
+            <div class="text">
+                <h2>Meet The Team</h2>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="HanhNguyen.jpeg">
+                </div>
+
+                <div class="content">
+                    <h3>Hanh Nguyen</h3>
+                    <p>Hello! I'm a first year Economics student. I believe pandemic cannot stop the passion for exploration around the world. We hope with EarthPix, you can have a mini tour to different countries and decide where to go when safe.</p>
+                </div>
+            </div>
+    </section>
+
+
+    </div>
+
+
+
+    <div class="menu ">
+        <ul>
+            <li><a href="landingpage.html ">Home</a></li>
+            <li><a href="destinationspage.html ">Destinations</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>

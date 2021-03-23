@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="netherlands.css">
+    <link rel="stylesheet" href="slick.css">
+    <title>Let's explore Africa!</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h2>EARTHPIX</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="destinationspage.html">Destinations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="banner-area">
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="kenya.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Kenya</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="South africa.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>South Africa</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="southafrica.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>South Africa</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uganda.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Uganda</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <video src="africa.mp4" muted loop autoplay></video>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $('.banner-area').slick({
+            autoplay: true,
+            speed: 3000,
+            arrows: false,
+            dots: true,
+            fade: true
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="japan.css">
+    <link rel="stylesheet" href="slick.css">
+    <title>Let's explore Japan!</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h2 class="logo"><a href="landingpage.html">EarthPix</a></h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="destinationspage.html">Destinations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="banner-area">
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="japan1.jpg" alt="Shinjuku">
+                </div>
+                <div class="banner-text">
+                    <h2>Shinjuku</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="japan2.jpg" alt="Senso-Ji">
+                </div>
+                <div class="banner-text">
+                    <h2>Senso-Ji</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="japan3.jpg" alt="Omoide Yokocho">
+                </div>
+                <div class="banner-text">
+                    <h2>Omoide Yokocho</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="japan4.jpg" alt="Yoyogi Park">
+                </div>
+                <div class="banner-text">
+                    <h2>Yoyogi Park</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="japan5.jpg" alt="Mount Fuji">
+                </div>
+                <div class="banner-text">
+                    <h2>Mount Fuji</h2>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $('.banner-area').slick({
+            autoplay: true,
+            speed: 3000,
+            arrows: false,
+            dots: true,
+            fade: true
+        });
+    </script>
+</body>
+
+</html>

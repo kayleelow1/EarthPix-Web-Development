@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destinationspage.css">
+    <title>Destination Page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><a href="landingpage.html">EarthPix</a></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <div class="container">
+            <img src="UK.jpg">
+            <div class="desc"><a href="UK.html">United Kingdom</a></div>
+            <img src="Netherland.jpg">
+            <div class="desc"><a href="netherlands.html">The Netherlands</a></div>
+            <img src="malaysia3.jpg">
+            <div class="desc"><a href="malaysia.html">Malaysia</a></div>
+            <img src="Japan.jpg">
+            <div class="desc"><a href="japan.html">Japan</a></div>
+            <img src="vn!.jpeg">
+            <div class="desc"><a href="vietnam.html">Vietnam</a> </div>
+            <img src="africa!.jpeg">
+            <div class="desc"><a href="africa.html">Africa</a></div>
+            <img src="AD5.jpg">
+            <div class="desc"><a href="unitedarabemirates.html">United Arab Emirates</a></div>
+            <img src="egypt.jpg">
+            <div class="desc"><a href="egypt.html">Egypt</a></div>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="landingpage.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </div>
+
+
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>
