@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="netherlands.css">
+    <link rel="stylesheet" href="slick.css">
+    <title>Let's explore Vietnam!</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h2>EARTHPIX</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="destinationspage.html">Destinations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="banner-area">
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="tanbinh.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Tan Binh</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="hn.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Ha Noi</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="banhmi.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Banh mi and beer</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="localmarket.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>The local market</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="bana.jpg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Ba Na hills</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="halongbay.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h2>Ha Long bay</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <video src="vn.mp4" muted loop autoplay></video>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $('.banner-area').slick({
+            autoplay: true,
+            speed: 3000,
+            arrows: false,
+            dots: true,
+            fade: true
+        });
+    </script>
+</body>
+
+</html>
