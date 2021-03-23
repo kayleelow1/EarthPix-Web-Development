@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="UK.css">
+    <link rel="stylesheet" href="slick.css">
+    <title>Let's explore United Kingdom!</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h2 class="logo"><a href="landingpage.html">EarthPix</a></h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="destinationspage.html">Destinations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="banner-area">
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uk1.jpg" alt="Grafton Street">
+                </div>
+                <div class="banner-text">
+                    <h2>Grafton Street</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uk2.jpg" alt="King's Cross">
+                </div>
+                <div class="banner-text">
+                    <h2>King's Cross</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uk3.jpg" alt="Water of Leith Walkway">
+                </div>
+                <div class="banner-text">
+                    <h2>Water of Leith Walkway</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uk4.jpg" alt="Roman Baths">
+                </div>
+                <div class="banner-text">
+                    <h2>Roman Baths</h2>
+                </div>
+            </div>
+            <div class="single-banner">
+                <div class="banner-img">
+                    <img src="uk5.jpg" alt="Highgate Cemetry">
+                </div>
+                <div class="banner-text">
+                    <h2>Highgate Cemetry</h2>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $('.banner-area').slick({
+            autoplay: true,
+            speed: 3000,
+            arrows: false,
+            dots: true,
+            fade: true
+        });
+    </script>
+</body>
+
+</html>
